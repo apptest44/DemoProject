@@ -43,6 +43,13 @@
     NSLog(@"%s", __func__);
 }
 
+
+- (void)validateUserDetails {
+    
+    NSLog(@"Validating User details");
+}
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
