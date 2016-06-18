@@ -22,8 +22,8 @@
     
     // comment writen in swift account
     
-    [self createView]; // created by app test account 
-    
+    [self createView]; // created by app test account
+    [self changeViewBGColor];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -37,7 +37,10 @@
     [self.view addSubview:aView];
 }
 
-
+- (void)changeViewBGColor {
+//    implemented in swift account
+    [self.view setBackgroundColor:[UIColor redColor]];
+}
 // created by app test account
 - (void)layoutSublayersOfLayer:(CALayer *)layer {
     NSLog(@"%s", __func__);
