@@ -41,6 +41,20 @@
 //    implemented in swift account
     [self.view setBackgroundColor:[UIColor redColor]];
 }
+
+- (void)setConstarintsForView {
+    // This method is implemented by switf account in development branch.
+}
+
+- (UIButton *)createCustomButton {
+    
+    UIButton *aButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    aButton.titleLabel.text = @"Save";
+    aButton.backgroundColor = [UIColor grayColor];
+
+    return aButton;
+}
+
 // created by app test account
 - (void)layoutSublayersOfLayer:(CALayer *)layer {
     NSLog(@"%s", __func__);
