@@ -22,8 +22,8 @@
     
     // comment writen in swift account
     
-    [self createView]; // created by app test account 
-    
+    [self createView]; // created by app test account
+    [self changeViewBGColor];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -35,6 +35,11 @@
     
     UIView *aView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     [self.view addSubview:aView];
+}
+
+- (void)changeViewBGColor {
+//    implemented in swift account
+    [self.view setBackgroundColor:[UIColor redColor]];
 }
 
 - (void)didReceiveMemoryWarning {
