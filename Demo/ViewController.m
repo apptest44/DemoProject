@@ -62,6 +62,10 @@
 
 - (void)dealloc {
     //in swift accout in sign branch
+    
+//    This method is used to dealloc.
+    // second line comment
+    
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
