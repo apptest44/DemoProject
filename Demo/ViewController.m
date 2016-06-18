@@ -40,7 +40,7 @@
 
 // created by app test account
 - (void)layoutSublayersOfLayer:(CALayer *)layer {
-    
+    NSLog(@"%s", __func__);
 }
 
 - (void)didReceiveMemoryWarning {
