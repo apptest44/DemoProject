@@ -63,6 +63,8 @@
 - (void)dealloc {
     //in swift accout in sign branch
     
+//    This method is used to dealloc.
+    // second line comment
     // this comments are written by swift account
     // comments line
     
