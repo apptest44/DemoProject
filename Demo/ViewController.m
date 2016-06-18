@@ -19,6 +19,22 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     // created new branch
+    
+    // comment writen in swift account
+    
+    [self createView]; // created by app test account 
+    
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+}
+
+
+- (void)createView {
+    
+    UIView *aView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    [self.view addSubview:aView];
 }
 
 
