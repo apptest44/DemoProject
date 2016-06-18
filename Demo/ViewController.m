@@ -60,6 +60,13 @@
     NSLog(@"%s", __func__);
 }
 
+- (void)dealloc {
+    //in swift accout in sign branch
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+}
 
 - (void)validateUserDetails {
     
