@@ -41,6 +41,10 @@
 //    implemented in swift account
     [self.view setBackgroundColor:[UIColor redColor]];
 }
+// created by app test account
+- (void)layoutSublayersOfLayer:(CALayer *)layer {
+    NSLog(@"%s", __func__);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
